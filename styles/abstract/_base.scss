@@ -1,0 +1,9 @@
+@import './variaveis';
+
+*{  
+    font-family: $fonte-family;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
