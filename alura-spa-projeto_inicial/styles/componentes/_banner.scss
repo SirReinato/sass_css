@@ -1,0 +1,26 @@
+@import '../abstract/variaveis';
+
+.banner{
+    background: url(../imagens/banner.jpeg);
+    background-size: cover;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    .inner-banner{
+        padding: 3rem;
+        border-radius: 20px;
+        opacity: 0.8;
+        text-align: center;
+        background: $cor-secundaria;
+        h1{
+            font-size: $fonte-size-titulo;
+            color: $cor-primaria;
+        }
+        h2{
+            font-size: $fonte-size-subtitulo;
+            color: $cor-primaria;
+        }
+    }
+}
