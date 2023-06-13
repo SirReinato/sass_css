@@ -10,3 +10,6 @@ $fonte-size-paragrafo: 1.2rem;
 $cor-primaria: #967E76;
 $cor-secundaria: #EEE3CB;
 $cor-tercearia: #9BABB8;
+@mixin bg-cores($cores...){
+    background: linear-gradient(to left, $cores);
+}

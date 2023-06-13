@@ -2,6 +2,8 @@
 
 nav{
     text-align: center;
+    @include bg-cores($cor-primaria, $cor-secundaria, $cor-tercearia);
+
     ul{
         li{
             display: inline-block;
@@ -12,7 +14,7 @@ nav{
 
                 color: $cor-primaria;
                 &:hover{
-                    border-bottom: 3px solid $cor-secundaria;
+                    border-bottom: 3px solid $cor-primaria;
                 }
             }
         }

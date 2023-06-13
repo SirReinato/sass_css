@@ -1,0 +1,32 @@
+@import "../abstract/variaveis";
+
+.bem_estar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    .img-pedra{
+        width: 50%;
+    }
+    .bem_estar-textos{
+        width: 50%;
+        text-align: center;
+        h3{
+            font-size: $fonte-size-subtitulo;
+            font-weight: 300;
+            margin: 5px 0;
+            color: $cor-tercearia;
+        }
+        h4{
+            font-size: $fonte-size-titulo;
+            font-weight: 300;
+            margin: 5px 0;
+            color: $cor-primaria;
+        }
+        p{
+            font-size: $fonte-size-paragrafo;
+            margin: 10px 0;
+            color: $cor-tercearia;
+        }
+    }
+}

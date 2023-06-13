@@ -1,0 +1,13 @@
+@import "../abstract/variaveis";
+
+
+footer{
+    text-align: center;
+    font-size: $fonte-size-subtitulo;
+    margin-top: 1rem;
+    padding: 1.2rem;
+    @include bg-cores($cor-primaria, $cor-secundaria, $cor-tercearia);
+    i{
+        color: red;
+    }
+}
